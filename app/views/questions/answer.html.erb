@@ -1,0 +1,13 @@
+<h1>Answer</h1>
+
+<div class="dialog">
+  <h3><%= params[:question] %></h3>
+  <h3> - You </h3>
+</div>
+
+<div class="dialog coach">
+  <h3><%= @answer %></h3>
+  <h3> - Your coach </h3>
+</div>
+
+<%= link_to "Ask a new question", "/ask", class: "btn btn-primary"%>
